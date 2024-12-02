@@ -8,7 +8,8 @@
     "lint": "prettier & lint",
     "prettier": "prettier . --write",
     "test": "node --test",
-    "watch-ts": "tsc -w"
+    "watch-ts": "tsc -w",
+    "execute": "node ./dist/execute.js"
   },
   "repository": {
     "type": "git",
